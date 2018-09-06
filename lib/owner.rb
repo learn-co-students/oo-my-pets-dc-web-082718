@@ -75,7 +75,10 @@ class Owner
     end
     # sell all pets
 
-    @pets = {:fishes => [], :dogs => [], :cats => []}
+    @pets = {
+        :fishes => [],
+        :dogs => [],
+        :cats => []}
   end
 
   def list_pets
